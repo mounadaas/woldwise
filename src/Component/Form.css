@@ -1,0 +1,100 @@
+form {
+  margin-top: 10px;
+  width: 80%;
+  background-color: var(--color-dark--2);
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.react-datepicker-popper {
+  width: 200px;
+}
+
+.react-datepicker {
+  display: flex;
+}
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  padding: 8px 0;
+  position: relative;
+}
+
+.buttons .add {
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: var(--color-brand--2);
+  border: none;
+}
+.buttons .back {
+  border-radius: 5px;
+  padding: 0.7rem;
+  background-color: var(--color-dark--2);
+  border: 1px solid var(--color-light--2);
+  color: white;
+}
+form.loading {
+  opacity: 0.3;
+}
+form div {
+  width: 100%;
+}
+.citynameinput {
+  width: 100%;
+  display: flex;
+  background-color: var(--color-light--2);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 4px;
+}
+form div input {
+  width: 100%;
+  background-color: var(--color-light--2);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+textarea {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-light--3);
+  transition: all 0.2s;
+}
+input:focus {
+  outline: none;
+  background-color: #fff;
+}
+.emojiform {
+  color: var(--color-brand--1);
+  font-weight: bold;
+  font-size: 14px;
+}
+/* mobile screen  */
+@media (max-width: 767px) {
+  form {
+    width: 90%;
+  }
+}

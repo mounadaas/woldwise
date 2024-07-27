@@ -1,0 +1,23 @@
+.CountryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+}
+li.CityList {
+  background-color: var(--color-dark--2);
+  width: 46%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px solid var(--color-brand--1);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.emojicountry {
+  color: var(--color-brand--2);
+  font-weight: bold;
+}

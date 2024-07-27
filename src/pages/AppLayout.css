@@ -1,0 +1,16 @@
+.app {
+  height: 100vh;
+  padding: 2.4rem;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+  position: relative;
+}
+
+/* mobile screen  */
+@media (max-width: 767px) {
+  .app {
+    flex-direction: column-reverse;
+    min-height: 180vh;
+  }
+}

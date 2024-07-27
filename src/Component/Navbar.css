@@ -1,0 +1,80 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin: 0 10px;
+}
+nav a.active {
+  color: var(--color-brand--2);
+}
+.ctalogin {
+  display: inline-block;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.user {
+  display: none;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/*large screen*/
+@media (min-width: 1200px) {
+}
+/*Meduim screen*/
+@media (min-width: 992px) {
+}
+/*small screen*/
+@media (min-width: 768px) {
+}
+/* mobile screen  */
+@media (max-width: 767px) {
+  .user {
+    display: inline-block;
+  }
+  .ctalogin {
+    display: none;
+  }
+  .logo img {
+    width: 45px;
+    height: 45px;
+  }
+  .logo span {
+    display: none;
+  }
+  nav a {
+    margin: 0 4px;
+  }
+}

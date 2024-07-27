@@ -1,0 +1,28 @@
+.City {
+  background-color: var(--color-dark--2);
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.wikipedia {
+  color: var(--color-brand--1);
+}
+.back {
+  border-radius: 5px;
+  padding: 0.7rem;
+  background-color: var(--color-dark--2);
+  border: 1px solid var(--color-light--2);
+  color: white;
+  margin-top: 10px;
+}
+.City .row {
+  margin: 1.5rem 0;
+}
+.City h3 span {
+  margin-right: 5px;
+}
+.cityemoji {
+  color: var(--color-brand--2);
+}
